@@ -132,6 +132,8 @@ export default function Main({ dieType }) {
             width={windowSize.width}
             height={windowSize.height}
             style={{ position: "fixed", top: 0, left: 0 }}
+            recycle={false}
+            numberOfPieces={1000}
           />}
 
           <div aria-live="polite" className="sr-only">
